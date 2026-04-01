@@ -17,17 +17,17 @@ Under the mentorship of **Eng. Ahmed Ali**, I implemented the following optimiza
 
 ### 1. Data Transformation (Power Query)
 I used Power Query to handle the ETL process, splitting the flat dataset into specialized **Dimension Tables** and a central **Fact Table**.
-![Power Query ETL Steps](screenshots/2.png)
+![Power Query ETL Steps](Screenshots/2.png)
 *Detailed transformation steps in Power Query to ensure data cleanliness.*
 
 ### 2. Normalization & Indexing
 I generated unique Surrogate Keys (Indexing) to link tables efficiently, ensuring the model uses Integer keys instead of heavy String keys for relationships.
-![Normalization Strategy](screenshots/4.png)
+![Normalization Strategy](Screenshots/4.png)
 *Mapping out the transition from Flat to Normalized structure.*
 
 ### 3. Star Schema Design
 The final model follows the **Star Schema** standard, which is the gold standard for Power BI's VertiPaq engine.
-![Star Schema Model View](screenshots/1.png)
+![Star Schema Model View](Screenshots/1.png)
 *Final Model View showing 1:Many relationships between Fact and Dimensions.*
 
 ---
@@ -43,7 +43,7 @@ To prove the efficiency of the new model, I used the **Performance Analyzer** to
 ### Visual Proof:
 | Before (Flat Table) - 172ms | After (Normalized) - 131ms |
 | :---: | :---: |
-| ![Before Optimization](screenshots/3.png) | ![After Optimization](screenshots/7.png) |
+| ![Before Optimization](Screenshots/3.png) | ![After Optimization](Screenshots/7.png) |
 
 ---
 
@@ -51,15 +51,15 @@ To prove the efficiency of the new model, I used the **Performance Analyzer** to
 
 ### Power Query Applied Steps
 Detailed look at how the data was shaped before loading into the model.
-![Power Query Advanced](screenshots/5.png)
+![Power Query Advanced](Screenshots/5.png)
 
 ### Relationship Integrity
 Ensuring all keys and cardinalities are correctly configured.
-![Relationship Details](screenshots/6.png)
+![Relationship Details](Screenshots/6.png)
 
 ### Final Analytics Dashboard
 The end result is a lightning-fast, interactive dashboard ready for business decision-making.
-![Final Dashboard](screenshots/8.png)
+![Final Dashboard](Screenshots/8.png)
 
 ---
 
